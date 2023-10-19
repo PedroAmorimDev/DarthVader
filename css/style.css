@@ -1,0 +1,33 @@
+:root{
+    --black: #000;
+    --gray:#494c4e;
+    --white: #fff;
+}
+
+
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+}
+
+.container{
+    border: 1px solid rgb(59, 39, 114);
+    width: 900px;
+    margin: auto;
+}
+nav{
+    
+    padding: 1rem;
+    background-color: var(--gray);
+}
+
+article{
+    padding: 0.8rem;
+}
+
+
+footer{
+    text-align: center;
+}
